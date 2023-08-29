@@ -4,7 +4,7 @@ import React from "react"
 export default function Demonstration(): React.ReactElement {
   return (
     <section className="xl:flex xl:justify-between">
-      <div className="xl:flex xl:w-full xl:flex-col xl:items-center xl:justify-center xl:gap-3 xl:border xl:py-8">
+      <div className="xl:flex xl:w-full xl:flex-col xl:items-center xl:justify-center xl:gap-3 xl:py-8">
         <div className="xl:flex xl:w-full xl:flex-col xl:items-center xl:border">
           <p className="xl:text-3xl xl:text-[#676060] 4xl:text-[42px]">Residencial</p>
           <hr className="xl:w-[30%] xl:border-b-[1px] xl:border-[#676060] 4xl:w-[37%]" />
