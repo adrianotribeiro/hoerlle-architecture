@@ -15,7 +15,7 @@ export default function Header(): React.ReactElement {
 
   return (
     <section className="">
-      <div className="hidden md:flex md:justify-around md:py-3">
+      <div className="hidden md:flex md:justify-around md:py-3 6xl:justify-between">
         <div>
           <p className="md:text-[35px] md:text-[#676060] xl:text-[40px]">Eduardo Hoerlle</p>
         </div>

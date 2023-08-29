@@ -85,8 +85,9 @@ module.exports = {
       screens: {
         "3xl": { raw: "(width: 1366px)" },
         "4xl": { raw: "(min-width:1440px)" },
-        "4_xl": { raw: "(width:1536px)" },
+        "4_xl": { raw: "(min-width:1536px)" },
         "5xl": { raw: "(min-width: 1920px)" },
+        "6xl": { raw: "(min-width: 2560px)" },
       },
     },
   },
