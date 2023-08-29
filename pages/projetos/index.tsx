@@ -11,7 +11,7 @@ export default function Projects(): React.ReactElement {
       <div className="mb-24 mt-8 flex w-[40%] flex-row items-center justify-center gap-4 border-b border-[#676060] p-4">
         <button onClick={() => setProjectsType("RESIDENCIAL")}>
           <p
-            className={`font-sans font-light tracking-wider xl:text-3xl xl:text-[${textColor(
+            className={`font-montserrat font-light tracking-wider xl:text-3xl xl:text-[${textColor(
               "RESIDENCIAL"
             )}] duration-100 ease-in 4xl:text-[32px] 5xl:text-[32px]`}
           >
@@ -19,12 +19,12 @@ export default function Projects(): React.ReactElement {
           </p>
         </button>
 
-        <p className="font-sans font-light tracking-wider xl:text-3xl xl:text-[#676060] 4xl:text-[42] 5xl:text-[42px]">
+        <p className="font-montserrat font-light tracking-wider xl:text-3xl xl:text-[#676060] 4xl:text-[42] 5xl:text-[42px]">
           /
         </p>
         <button onClick={() => setProjectsType("COMERCIAL")}>
           <p
-            className={`font-sans font-light tracking-wider xl:text-3xl xl:text-[${textColor(
+            className={`font-montserrat font-light tracking-wider xl:text-3xl xl:text-[${textColor(
               "COMERCIAL"
             )}] duration-100 ease-in 4xl:text-[32px] 5xl:text-[32px]`}
           >

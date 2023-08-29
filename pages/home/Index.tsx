@@ -31,13 +31,15 @@ export default function Home(): React.ReactElement {
               className="h-fit w-fit xl:relative xl:z-0 xl:h-[88.3vh] xl:w-full xl:brightness-50 2xl:h-[90.3vh] 3xl:h-[89vh] 4xl:h-[90.7vh] 5xl:h-[92.2vh]"
             />
             <div className="xl:absolute xl:top-0 xl:flex xl:h-[88.3vh] xl:items-end xl:px-32">
-              <div className="xl:relative xl:z-10 xl:w-[50%] xl:pb-12 3xl:w-[45%] 4xl:w-[60%] 4_xl:w-[50%] 5xl:w-[50%]">
-                <p className="text-white xl:text-[3rem] 4xl:text-[64px] 5xl:text-[70px]">{slide.title}</p>
-                <p className="text-white xl:text-[1.5rem] xl:font-light xl:leading-7 4xl:text-[32px] 4_xl:leading-8 5xl:text-[40px] 5xl:leading-10">
+              <div className="font-montserrat xl:relative xl:z-10 xl:w-[50%] xl:pb-12 3xl:w-[45%] 4xl:w-[60%] 4_xl:w-[50%] 5xl:w-[50%]">
+                <p className="font-montserrat text-white xl:text-[3rem] 4xl:text-[64px] 5xl:text-[70px]">
+                  {slide.title}
+                </p>
+                <p className="font-montserrat text-white xl:text-[1.5rem] xl:font-light xl:leading-7 4xl:text-[32px] 4_xl:leading-8 5xl:text-[40px] 5xl:leading-10">
                   {slide.summary}
                 </p>
                 <div className="py-4">
-                  <button className="rounded bg-[#D9D9D954]/50 text-white xl:px-8 xl:py-1 xl:text-[1rem] xl:hover:bg-[#534f4f53]/50 5xl:text-[20px]">
+                  <button className="rounded bg-[#D9D9D954]/50 font-montserrat text-white xl:px-8 xl:py-1 xl:text-[1rem] xl:hover:bg-[#534f4f53]/50 5xl:text-[20px]">
                     SAIBA MAIS
                   </button>
                 </div>

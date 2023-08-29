@@ -6,10 +6,10 @@ export default function Demonstration(): React.ReactElement {
     <section className="xl:flex xl:justify-between">
       <div className="xl:flex xl:w-full xl:flex-col xl:items-center xl:justify-center xl:gap-3 xl:py-8 5xl:gap-6">
         <div className="xl:flex xl:w-full xl:flex-col xl:items-center">
-          <p className="xl:text-3xl xl:text-[#676060] 4xl:text-[35px] 5xl:text-[42px]">Residencial</p>
-          <hr className="xl:w-[30%] xl:border-b-[1px] xl:border-[#676060] 4xl:w-[35%] 5xl:w-[30%]" />
+          <p className="font-montserrat xl:text-3xl xl:text-[#676060] 4xl:text-[35px] 5xl:text-[42px]">Residencial</p>
+          <hr className="font-montserrat xl:w-[30%] xl:border-b-[1px] xl:border-[#676060] 4xl:w-[35%] 5xl:w-[30%]" />
         </div>
-        <p className="xl:w-[100%] xl:px-6 xl:text-justify xl:text-2xl xl:font-normal xl:text-[#676060] 4xl:px-12 5xl:px-24 5xl:text-3xl">
+        <p className="font-montserrat xl:w-[100%] xl:px-6 xl:text-justify xl:text-2xl xl:font-normal xl:text-[#676060] 4xl:px-12 5xl:px-24 5xl:text-3xl">
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim.
           Aliquam porttitor sem sed turpis blandit sagittis. Vestibulum ornare, elit non efficitur placerat.
         </p>
@@ -50,10 +50,10 @@ export default function Demonstration(): React.ReactElement {
       </div>
       <div className="xl:flex xl:w-full xl:flex-col xl:items-center xl:gap-3 xl:bg-[#1D1B1BBF]/75 xl:py-8 5xl:gap-6">
         <div className="xl:flex xl:w-full xl:flex-col xl:items-center">
-          <p className="xl:text-3xl xl:text-[#ffffff] 4xl:text-[35px] 5xl:text-[42px]">Comercial</p>
+          <p className="font-montserrat xl:text-3xl xl:text-[#ffffff] 4xl:text-[35px] 5xl:text-[42px]">Comercial</p>
           <hr className="xl:w-[30%] xl:border-b-[1px] xl:border-[#ffffff] 4xl:w-[35%] 5xl:w-[30%]" />
         </div>
-        <p className="xl:w-[100%] xl:px-8 xl:text-justify xl:text-2xl xl:font-normal xl:text-[#ffffff] 4xl:px-12 5xl:px-24 5xl:text-3xl">
+        <p className="font-montserrat xl:w-[100%] xl:px-8 xl:text-justify xl:text-2xl xl:font-normal xl:text-[#ffffff] 4xl:px-12 5xl:px-24 5xl:text-3xl">
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim.
           Aliquam porttitor sem sed turpis blandit sagittis. Vestibulum ornare, elit non efficitur placerat.
         </p>

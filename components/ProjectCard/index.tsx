@@ -24,8 +24,8 @@ export default function ProjectCard({ project }: ProjectProps) {
       />
       <div className={`bottom-0 px-6 py-4 xl:absolute`}>
         <div className={`${isHovered ? "opacity-100" : "opacity-0"} flex-1 flex-col justify-end duration-200 ease-in`}>
-          <p className="text-white xl:text-[3rem] 4xl:text-[24px] 5xl:text-[24px]">{project.title}</p>
-          <p className="text-[14px] font-light leading-6 text-white">{project.summary}</p>
+          <p className="font-montserrat text-white xl:text-[3rem] 4xl:text-[24px] 5xl:text-[24px]">{project.title}</p>
+          <p className="font-montserrat text-[14px] font-light leading-6 text-white">{project.summary}</p>
         </div>
       </div>
     </div>

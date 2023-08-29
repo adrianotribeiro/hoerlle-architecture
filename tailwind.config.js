@@ -34,6 +34,7 @@ module.exports = {
         },
       },
       fontFamily: {
+        montserrat: "var(--font-montserrat)",
         body: [
           "Inter",
           "ui-sans-serif",
@@ -52,7 +53,6 @@ module.exports = {
           "Noto Color Emoji",
         ],
         sans: [
-          "Montserrat",
           "ui-sans-serif",
           "system-ui",
           "-apple-system",
@@ -68,7 +68,6 @@ module.exports = {
           "Segoe UI Symbol",
           "Noto Color Emoji",
         ],
-        montserrat: ["Montserrat", "Inter", "sans-serif"],
       },
       borderWidth: {
         DEFAULT: "1px",

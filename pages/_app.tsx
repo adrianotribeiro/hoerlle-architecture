@@ -1,8 +1,13 @@
 import "../styles/tailwind.css"
 import { AppProps } from "next/dist/shared/lib/router/router"
-
+import { Montserrat } from "next/font/google"
 import Head from "next/head"
 import BaseLayout from "components/BaseLayout"
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+})
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -18,11 +23,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="twitter:card" content="summary_large_image" />
         <title>Hoerlle Architecture</title>
       </Head>
-      <BaseLayout>
-        <section className="font-montserrat">
+      <main className={`${montserrat.variable}`}>
+        <BaseLayout>
           <Component {...pageProps} />
-        </section>
-      </BaseLayout>
+        </BaseLayout>
+      </main>
     </>
   )
 }
