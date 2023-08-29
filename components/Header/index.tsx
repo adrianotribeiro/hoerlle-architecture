@@ -15,27 +15,30 @@ export default function Header(): React.ReactElement {
 
   return (
     <section className="">
-      <div className="hidden md:flex md:justify-around md:py-3">
+      <div className="hidden md:flex md:justify-around md:py-3 6xl:justify-between">
         <div>
-          <p className="md:text-[35px] md:text-[#676060] xl:text-[40px]">Eduardo Hoerlle</p>
+          <p className="font-montserrat md:text-[35px] md:text-[#676060] xl:text-[40px]">Eduardo Hoerlle</p>
         </div>
         <div className="md:flex md:items-center md:gap-3 xl:gap-6">
-          <Link className="md:text-base md:text-[#676060] md:hover:border-b-2 md:hover:border-[#676060]" href={"/"}>
+          <Link
+            className="font-montserrat md:text-base md:text-[#676060] md:hover:border-b-2 md:hover:border-[#676060]"
+            href={"/"}
+          >
             HOME
           </Link>
           <Link
-            className="md:text-base md:text-[#676060] md:hover:border-b-2 md:hover:border-[#676060]"
+            className="font-montserrat md:text-base md:text-[#676060] md:hover:border-b-2 md:hover:border-[#676060]"
             href={"/projetos"}
           >
             PROJETOS
           </Link>
           <Link
-            className="md:text-base md:text-[#676060] md:hover:border-b-2 md:hover:border-[#676060]"
+            className="font-montserrat md:text-base md:text-[#676060] md:hover:border-b-2 md:hover:border-[#676060]"
             href={"/sobre"}
           >
             SOBRE
           </Link>
-          <button className="h-[30px] md:flex md:w-[108px] md:items-center md:justify-center md:rounded md:bg-[#B1AAAA] md:text-base md:text-[#ffff]">
+          <button className="h-[30px] font-montserrat md:flex md:w-[108px] md:items-center md:justify-center md:rounded md:bg-[#B1AAAA] md:text-base md:text-[#ffff]">
             CONTATOS
           </button>
         </div>
@@ -48,7 +51,7 @@ export default function Header(): React.ReactElement {
       </animated.div>
       <div className="flex justify-around py-2 sm:hidden">
         <div>
-          <p className="text-[30px] text-[#676060]">Eduardo Hoerlle</p>
+          <p className="font-montserrat text-[30px] text-[#676060]">Eduardo Hoerlle</p>
         </div>
         <div
           className="z-30"

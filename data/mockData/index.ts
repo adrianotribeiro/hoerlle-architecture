@@ -5,7 +5,7 @@ interface SlideDataProps {
   image: string
 }
 
-interface ProjectsDataProps {
+export interface ProjectsDataProps {
   id: number
   title: string
   summary: string
@@ -125,7 +125,7 @@ export const ProjectsData: ProjectsDataProps[] = [
   },
 ]
 
-export const SlidePhotage: SlideDataProps[] = [
+export const SlidePhotos: SlideDataProps[] = [
   {
     id: 1,
     title: "Residencial",
