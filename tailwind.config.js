@@ -65,6 +65,7 @@ module.exports = {
           "Segoe UI Symbol",
           "Noto Color Emoji",
         ],
+        montserrat: ["Montserrat", "Inter", "sans-serif"],
       },
       borderWidth: {
         DEFAULT: "1px",
@@ -80,6 +81,12 @@ module.exports = {
       },
       minWidth: {
         ...defaultTheme.width,
+      },
+      screens: {
+        "3xl": { raw: "(width: 1366px)" },
+        "4xl": { raw: "(min-width:1440px)" },
+        "4_xl": { raw: "(width:1536px)" },
+        "5xl": { raw: "(min-width: 1920px)" },
       },
     },
   },
