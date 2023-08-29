@@ -125,7 +125,7 @@ export const ProjectsData: ProjectsDataProps[] = [
   },
 ]
 
-export const SlidePhotage: SlideDataProps[] = [
+export const SlidePhotos: SlideDataProps[] = [
   {
     id: 1,
     title: "Residencial",
