@@ -5,7 +5,7 @@ interface SlideDataProps {
   image: string
 }
 
-interface ProjectsDataProps {
+export interface ProjectsDataProps {
   id: number
   title: string
   summary: string
