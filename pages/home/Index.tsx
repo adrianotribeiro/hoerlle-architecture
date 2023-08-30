@@ -7,6 +7,7 @@ import DemonstrationSection from "components/DemonstrationSection"
 import "swiper/css"
 import "swiper/swiper-bundle.css"
 
+import Summary from "components/SummarySection"
 import { SlidePhotos } from "data/mockData"
 export default function Home(): React.ReactElement {
   return (
@@ -50,6 +51,7 @@ export default function Home(): React.ReactElement {
       </Swiper>
 
       <DemonstrationSection />
+      <Summary />
     </>
   )
 }
