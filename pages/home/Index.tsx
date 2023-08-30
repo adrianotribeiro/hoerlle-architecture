@@ -4,6 +4,7 @@ import React from "react"
 import { A11y, Navigation, Pagination, Scrollbar } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 import DemonstrationSection from "components/DemonstrationSection"
+import FormSection from "components/FormSection"
 import "swiper/css"
 import "swiper/swiper-bundle.css"
 
@@ -52,6 +53,7 @@ export default function Home(): React.ReactElement {
 
       <DemonstrationSection />
       <Summary />
+      <FormSection />
     </>
   )
 }
