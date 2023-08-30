@@ -10,7 +10,7 @@ export default function ProjectCard({ project }: ProjectProps) {
   const [isHovered, setIsHovered] = useState(false)
   return (
     <div
-      className="h-max w-max flex-1 cursor-pointer flex-col xl:relative"
+      className="relative flex cursor-pointer flex-col items-center justify-center"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -20,12 +20,16 @@ export default function ProjectCard({ project }: ProjectProps) {
         priority={true}
         src={project.image[0]}
         alt={project.title}
-        className=" xl:w-full xl:brightness-50"
+        className=" w-full brightness-50"
       />
-      <div className={`bottom-0 px-6 py-4 xl:absolute`}>
-        <div className={`${isHovered ? "opacity-100" : "opacity-0"} flex-1 flex-col justify-end duration-200 ease-in`}>
-          <p className="font-montserrat text-white xl:text-[3rem] 4xl:text-[24px] 5xl:text-[24px]">{project.title}</p>
-          <p className="font-montserrat text-[14px] font-light leading-6 text-white">{project.summary}</p>
+      <div className={`absolute bottom-0 px-6 py-4`}>
+        <div
+          className={`${
+            isHovered ? "md:opacity-100" : "md:opacity-0"
+          } flex-1 flex-col justify-end duration-200 ease-in xs:opacity-100`}
+        >
+          <p className="font-montserrat text-[24px] text-white ">{project.title}</p>
+          <p className="font-montserrat text-[16px] font-light leading-6 text-white">{project.summary}</p>
         </div>
       </div>
     </div>

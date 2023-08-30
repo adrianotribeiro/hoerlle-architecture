@@ -85,6 +85,7 @@ module.exports = {
         ...defaultTheme.width,
       },
       screens: {
+        xs: { raw: "(max-width: 640px)" },
         "3xl": { raw: "(width: 1366px)" },
         "4xl": { raw: "(min-width:1440px)" },
         "4_xl": { raw: "(min-width:1536px)" },
