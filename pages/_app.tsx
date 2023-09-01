@@ -3,6 +3,7 @@ import { AppProps } from "next/dist/shared/lib/router/router"
 import { Montserrat } from "next/font/google"
 import Head from "next/head"
 import BaseLayout from "components/BaseLayout"
+import Footer from "components/FooterSection"
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <Component {...pageProps} />
         </BaseLayout>
       </main>
+      <Footer />
     </>
   )
 }
