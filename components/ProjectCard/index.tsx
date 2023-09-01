@@ -10,7 +10,7 @@ export default function ProjectCard({ project }: ProjectProps) {
   const [isHovered, setIsHovered] = useState(false)
   return (
     <div
-      className="relative flex cursor-pointer flex-col items-center justify-center"
+      className="relative flex cursor-pointer flex-col items-center justify-center "
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -20,7 +20,7 @@ export default function ProjectCard({ project }: ProjectProps) {
         priority={true}
         src={project.image[0]}
         alt={project.title}
-        className=" w-full brightness-50"
+        className=" w-full brightness-50 xl:w-[317px] 3xl:w-[355px] 4xl:w-[440px] 4_xl:w-[400px]"
       />
       <div className={`absolute bottom-0 px-6 py-4`}>
         <div

@@ -39,7 +39,7 @@ export default function FormSection(): React.ReactElement {
               name="subject"
             />
           </div>
-          <div className="xl:flex xl:flex-col">
+          <div className="xl:flex xl:flex-col xl:pb-2">
             <label className="xl:text-[25px] xl:font-light xl:text-[#454242]" htmlFor="message">
               Mensagem
             </label>
@@ -51,6 +51,9 @@ export default function FormSection(): React.ReactElement {
               rows={10}
             ></textarea>
           </div>
+          <button className="xl:m-auto xl:w-[30%] xl:rounded xl:bg-[#454242] xl:py-[6px] xl:text-white xl:hover:bg-[#454242]/50 xl:hover:text-[#454242]">
+            ENVIAR
+          </button>
         </form>
       </div>
       <div>
