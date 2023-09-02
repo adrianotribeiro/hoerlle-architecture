@@ -1,4 +1,4 @@
-import { useSpring, animated } from "@react-spring/web"
+import { animated, useSpring } from "@react-spring/web"
 
 import Image from "next/image"
 import { useRouter } from "next/router"

@@ -11,10 +11,21 @@ export default function Header(): React.ReactElement {
     transform: isOpen ? "translateY(0rem)" : "translateY(-60rem)",
   })
 
+  const headerAnim = useSpring({
+    from: {
+      transform: "translateY(-5rem)",
+      opacity: 0,
+    },
+    to: {
+      transform: "translateY(0rem)",
+      opacity: 1,
+    },
+  })
+
   const hamburgerButtonLine = "h-1 w-8 my-1 rounded-full bg-[#121010] transition ease transform duration-300 z-10"
 
   return (
-    <section className="">
+    <animated.section style={headerAnim} className="">
       <div className="hidden md:flex md:justify-around md:py-3 6xl:justify-between">
         <div>
           <p className="font-montserrat md:text-[35px] md:text-[#676060] xl:text-[40px]">Eduardo Hoerlle</p>
@@ -78,6 +89,6 @@ export default function Header(): React.ReactElement {
           </button>
         </div>
       </div>
-    </section>
+    </animated.section>
   )
 }
