@@ -1,4 +1,6 @@
 import Image from "next/image"
+import { useRouter } from "next/router"
+
 import { useState } from "react"
 import { ProjectsDataProps } from "data/mockData"
 
@@ -7,10 +9,13 @@ interface ProjectProps {
 }
 
 export default function ProjectCard({ project }: ProjectProps) {
+  const { push, pathname } = useRouter()
+
   const [isHovered, setIsHovered] = useState(false)
   return (
     <div
       className="relative flex cursor-pointer flex-col items-center justify-center"
+      onClick={() => push(`${pathname}/${project.id}`)}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
