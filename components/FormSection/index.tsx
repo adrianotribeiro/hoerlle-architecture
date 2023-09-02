@@ -3,7 +3,7 @@ import React from "react"
 
 export default function FormSection(): React.ReactElement {
   return (
-    <section className="xl:flex xl:justify-around">
+    <section className="mb-16 xl:flex xl:justify-around">
       <div className="xl:w-[50%] ">
         <form action="" className="xl:flex xl:flex-col xl:gap-3">
           <label htmlFor="title" className="xl:py-4 xl:text-4xl xl:font-light xl:text-[#454242]">

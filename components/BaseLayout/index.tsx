@@ -7,7 +7,7 @@ export default function BaseLayout({ children }: PropsWithChildren) {
     <>
       <div className="container flex h-screen w-full flex-col justify-between">
         <Header />
-        <div className="container h-max w-full">{children}</div>
+        <div className="container  w-full">{children}</div>
         <Footer />
       </div>
     </>

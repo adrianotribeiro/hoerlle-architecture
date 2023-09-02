@@ -25,7 +25,7 @@ export default function ProjectDetails() {
 
   if (!project || !id) return null
   return (
-    <div className="container flex h-full w-full flex-col items-center">
+    <div className="container flex h-screen w-full flex-col items-center">
       <div className="mb-16 mt-8 flex flex-row items-center justify-center gap-4 border-b border-[#676060] p-4 md:w-[40%]">
         <p className={`font-montserrat text-3xl font-light tracking-wider `}>{project.title}</p>
       </div>
