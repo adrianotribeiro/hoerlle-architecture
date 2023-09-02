@@ -22,7 +22,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     description:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim",
     image: ["/images/bg_02.png", "/images/bg_03.png", "/images/bg_04.png", "/images/bg_05.png"],
-    tag: "residencial",
+    tag: "RESIDENCIAL",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     description:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim",
     image: ["/images/bg_02.png", "/images/bg_03.png", "/images/bg_04.png", "/images/bg_05.png"],
-    tag: "residencial",
+    tag: "RESIDENCIAL",
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     description:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim",
     image: ["/images/bg_02.png", "/images/bg_03.png", "/images/bg_04.png", "/images/bg_05.png"],
-    tag: "residencial",
+    tag: "RESIDENCIAL",
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     description:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim",
     image: ["/images/bg_02.png", "/images/bg_03.png", "/images/bg_04.png", "/images/bg_05.png"],
-    tag: "residencial",
+    tag: "RESIDENCIAL",
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     description:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim",
     image: ["/images/bg_02.png", "/images/bg_03.png", "/images/bg_04.png", "/images/bg_05.png"],
-    tag: "residencial",
+    tag: "RESIDENCIAL",
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     description:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim",
     image: ["/images/bg_02.png", "/images/bg_03.png", "/images/bg_04.png", "/images/bg_05.png"],
-    tag: "residencial",
+    tag: "RESIDENCIAL",
   },
   {
     id: 1,
@@ -76,7 +76,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     description:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim",
     image: ["/images/bg_02.png", "/images/bg_03.png", "/images/bg_04.png", "/images/bg_05.png"],
-    tag: "comercial",
+    tag: "COMERCIAL",
   },
   {
     id: 2,
@@ -85,7 +85,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     description:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim",
     image: ["/images/bg_02.png", "/images/bg_03.png", "/images/bg_04.png", "/images/bg_05.png"],
-    tag: "comercial",
+    tag: "COMERCIAL",
   },
   {
     id: 3,
@@ -94,7 +94,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     description:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim",
     image: ["/images/bg_02.png", "/images/bg_03.png", "/images/bg_04.png", "/images/bg_05.png"],
-    tag: "comercial",
+    tag: "COMERCIAL",
   },
   {
     id: 4,
@@ -103,7 +103,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     description:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim",
     image: ["/images/bg_02.png", "/images/bg_03.png", "/images/bg_04.png", "/images/bg_05.png"],
-    tag: "comercial",
+    tag: "COMERCIAL",
   },
   {
     id: 5,
@@ -112,7 +112,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     description:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim",
     image: ["/images/bg_02.png", "/images/bg_03.png", "/images/bg_04.png", "/images/bg_05.png"],
-    tag: "comercial",
+    tag: "COMERCIAL",
   },
   {
     id: 6,
@@ -121,7 +121,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     description:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim",
     image: ["/images/bg_02.png", "/images/bg_03.png", "/images/bg_04.png", "/images/bg_05.png"],
-    tag: "comercial",
+    tag: "COMERCIAL",
   },
 ]
 

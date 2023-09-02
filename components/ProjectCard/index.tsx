@@ -20,7 +20,7 @@ export default function ProjectCard({ project }: ProjectProps) {
         priority={true}
         src={project.image[0]}
         alt={project.title}
-        className=" w-full brightness-50"
+        className=" w-full brightness-50 xl:w-[317px] 3xl:w-[355px] 4xl:w-[440px] 4_xl:w-[400px] 5xl:w-[580px] 6xl:w-[570px]"
       />
       <div className={`absolute bottom-0 px-6 py-4`}>
         <div

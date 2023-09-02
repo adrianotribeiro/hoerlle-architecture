@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Footer(): React.ReactElement {
   return (
-    <section className="xl:flex xl:justify-around xl:py-2 6xl:m-auto 6xl:w-[70%]">
+    <section className="xl:flex xl:justify-around xl:self-end xl:py-2 6xl:m-auto 6xl:w-[70%]">
       <div>
         <p className="font-montserrat md:text-[35px] md:text-[#676060] xl:text-[40px]">Eduardo Hoerlle</p>
       </div>
