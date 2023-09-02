@@ -1,12 +1,14 @@
 import { PropsWithChildren } from "react"
 import Header from "components/Header"
+import Footer from "components/FooterSection"
 
 export default function BaseLayout({ children }: PropsWithChildren) {
   return (
     <>
-      <div className="6lx:content-center 6xl:container ">
+      <div className="container flex h-screen w-full flex-col justify-between">
         <Header />
-        {children}
+        <div className="container h-max w-full">{children}</div>
+        <Footer />
       </div>
     </>
   )
