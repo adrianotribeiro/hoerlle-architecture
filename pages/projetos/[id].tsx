@@ -27,7 +27,7 @@ export default function ProjectDetails() {
   return (
     <div className="container flex h-full w-full flex-col items-center">
       <div className="mb-16 mt-8 flex flex-row items-center justify-center gap-4 border-b border-[#676060] p-4 md:w-[40%]">
-        <p className={`font-montserrat text-3xl font-light tracking-wider xs:text-xl`}>{project.title}</p>
+        <p className={`font-montserrat text-3xl font-light tracking-wider `}>{project.title}</p>
       </div>
       <div className="flex max-h-[500px] w-full grow-0 flex-row overflow-hidden">
         <Image
@@ -35,43 +35,43 @@ export default function ProjectDetails() {
           height={1000}
           src={project.image[0]}
           alt="Eduardo Hoerlle"
-          className="h-[500px] w-full object-cover"
+          className="h-[200px] w-full object-cover md:h-[500px]"
         />
       </div>
-      <div className="my-16 ">
-        <p>
+      <div className="my-8 items-center justify-center p-4 md:my-16 md:p-0">
+        <p className="text-justify font-montserrat text-base font-light tracking-wider md:text-xl">
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim.
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim
         </p>
         <br />
-        <p>
+        <p className="text-justify font-montserrat text-base font-light tracking-wider md:text-xl">
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim.
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim
         </p>
       </div>
-      <div className="grid max-h-[550px] w-full grid-cols-2 gap-4 overflow-hidden">
+      <div className="grid max-h-[550px] w-full grid-cols-2 gap-0 overflow-hidden md:gap-4">
         <Image
           width={1000}
           height={1000}
           src={project.image[1]}
           alt="Eduardo Hoerlle"
-          className="h-[550px] w-full object-cover"
+          className="h-[250px] w-full object-cover md:h-[550px]"
         />
         <Image
           width={1000}
           height={1000}
           src={project.image[2]}
           alt="Eduardo Hoerlle"
-          className="h-[550px] w-full object-cover"
+          className="h-[250px] w-full object-cover md:h-[550px]"
         />
       </div>
-      <div className="my-16 ">
-        <p>
+      <div className="my-8 items-center justify-center p-4 md:my-16 md:p-0">
+        <p className="text-justify font-montserrat text-base font-light tracking-wider md:text-xl">
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim.
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim
         </p>
         <br />
-        <p>
+        <p className="text-justify font-montserrat text-base font-light tracking-wider md:text-xl">
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim.
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim
         </p>
@@ -82,7 +82,7 @@ export default function ProjectDetails() {
           height={1000}
           src={project.image[3]}
           alt="Eduardo Hoerlle"
-          className="h-[600px] w-full object-cover"
+          className="h-[300px] w-full object-cover md:h-[600px]"
         />
       </div>
     </div>
