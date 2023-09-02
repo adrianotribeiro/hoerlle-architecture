@@ -30,7 +30,7 @@ export default function Projects(): React.ReactElement {
           </p>
         </button>
       </div>
-      <div className="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xs:grid-cols-1 6xl:grid-cols-2">
+      <div className="grid items-center gap-6 overflow-hidden sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xs:grid-cols-1 6xl:grid-cols-2">
         {ProjectsData.filter((data) => data.tag === projectsType).map((project) => (
           <ProjectCard project={project} key={project.id} />
         ))}
