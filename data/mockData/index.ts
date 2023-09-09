@@ -1,8 +1,9 @@
-interface SlideDataProps {
+export interface SlideDataProps {
   id: number
   title: string
   summary: string
   image: string
+  mobileImage: string
 }
 
 export interface ProjectsDataProps {
@@ -132,6 +133,7 @@ export const SlidePhotos: SlideDataProps[] = [
     summary:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. ",
     image: "bg_02.png",
+    mobileImage: "bg_02_mobile.png",
   },
   {
     id: 2,
@@ -139,6 +141,7 @@ export const SlidePhotos: SlideDataProps[] = [
     summary:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. ",
     image: "bg_03.png",
+    mobileImage: "bg_03_mobile.png",
   },
   {
     id: 3,
@@ -146,6 +149,7 @@ export const SlidePhotos: SlideDataProps[] = [
     summary:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. ",
     image: "bg_04.png",
+    mobileImage: "bg_04_mobile.png",
   },
   {
     id: 4,
@@ -153,5 +157,6 @@ export const SlidePhotos: SlideDataProps[] = [
     summary:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. ",
     image: "bg_05.png",
+    mobileImage: "bg_05_mobile.png",
   },
 ]
