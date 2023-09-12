@@ -7,6 +7,7 @@ import { SlideDataProps } from "data/mockData"
 
 export default function SlideComponent(): React.ReactElement {
   const { carouselFragment, slideToPrevItem, slideToNextItem } = useSpringCarousel({
+    //@ts-ignore
     items: SlidePhotos.map((slide: SlideDataProps) => ({
       withLoop: true,
       id: slide.id,

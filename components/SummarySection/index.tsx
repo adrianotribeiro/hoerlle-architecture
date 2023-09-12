@@ -10,7 +10,7 @@ export default function Summary(): React.ReactElement {
             <p className="text-3xl font-light text-[#ffffff] md:text-[40px] xl:text-6xl  ">Residencial</p>
             <hr className="w-[50%] border-b-[0.5px] border-[#ffffff] md:w-[30%] xl:w-[28%] 4xl:w-[25%] 5xl:w-[18%] 6xl:w-[25%]" />
           </div>
-          <p className="hidden font-light text-[#ffffff] md:m-auto md:flex md:text-center  md:text-4xl xl:w-[85%] xl:px-0 xl:text-5xl 2sm:px-4 5xl:w-[60%]">
+          <p className="hidden font-light text-[#ffffff] md:m-auto md:flex md:text-center md:text-4xl xl:w-[85%] xl:px-0 xl:text-5xl 2sm:px-4 5xl:w-[60%]">
             Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim.
           </p>
           <p className="px-2 text-center text-3xl font-light text-[#ffffff] md:hidden xl:m-auto xl:w-[85%] xl:text-center xl:text-5xl 5xl:w-[60%]">
@@ -24,7 +24,7 @@ export default function Summary(): React.ReactElement {
             <p className="text-3xl font-light text-[#ffffff] md:text-[40px] xl:text-6xl  ">Comercial</p>
             <hr className="w-[50%] border-b-[0.5px] border-[#ffffff] md:w-[30%] xl:w-[28%] 4xl:w-[25%] 5xl:w-[18%] 6xl:w-[25%]" />
           </div>
-          <p className="hidden font-light text-[#ffffff] md:m-auto md:flex md:text-center  md:text-4xl xl:w-[85%] xl:px-0 xl:text-5xl 2sm:px-4 5xl:w-[60%]">
+          <p className="hidden font-light text-[#ffffff] md:m-auto md:flex md:text-center md:text-4xl xl:w-[85%] xl:px-0 xl:text-5xl 2sm:px-4 5xl:w-[60%]">
             Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim.
           </p>
           <p className="px-2 text-center text-3xl font-light text-[#ffffff] md:hidden xl:m-auto xl:w-[85%] xl:text-center xl:text-5xl 5xl:w-[60%]">
