@@ -24,7 +24,7 @@ export default function ProjectCard({ project }: ProjectProps) {
       transform: "translateY(0rem)",
       opacity: 1,
     },
-    delay: 300 * project.id,
+    delay: 300 * Number(project.id),
     config: { mass: 2, tension: 220, friction: 60 },
   })
   return (

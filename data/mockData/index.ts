@@ -1,5 +1,5 @@
 export interface SlideDataProps {
-  id: number
+  id: string
   title: string
   summary: string
   image: string
@@ -7,7 +7,7 @@ export interface SlideDataProps {
 }
 
 export interface ProjectsDataProps {
-  id: number
+  id: string
   title: string
   summary: string
   description: string
@@ -17,7 +17,7 @@ export interface ProjectsDataProps {
 
 export const ProjectsData: ProjectsDataProps[] = [
   {
-    id: 1,
+    id: "1",
     title: "Residencial",
     summary: "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis.",
     description:
@@ -26,7 +26,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     tag: "RESIDENCIAL",
   },
   {
-    id: 2,
+    id: "2",
     title: "Residencial 01",
     summary: "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis.",
     description:
@@ -35,7 +35,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     tag: "RESIDENCIAL",
   },
   {
-    id: 3,
+    id: "3",
     title: "Residencial 02",
     summary: "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis.",
     description:
@@ -44,7 +44,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     tag: "RESIDENCIAL",
   },
   {
-    id: 4,
+    id: "4",
     title: "Residencial 03",
     summary: "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis.",
     description:
@@ -53,7 +53,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     tag: "RESIDENCIAL",
   },
   {
-    id: 5,
+    id: "5",
     title: "Residencial 04",
     summary: "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis.",
     description:
@@ -62,7 +62,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     tag: "RESIDENCIAL",
   },
   {
-    id: 6,
+    id: "6",
     title: "Residencial 05",
     summary: "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis.",
     description:
@@ -71,7 +71,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     tag: "RESIDENCIAL",
   },
   {
-    id: 7,
+    id: "7",
     title: "Comercial",
     summary: "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis.",
     description:
@@ -80,7 +80,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     tag: "COMERCIAL",
   },
   {
-    id: 8,
+    id: "8",
     title: "Comercial 01",
     summary: "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis.",
     description:
@@ -89,7 +89,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     tag: "COMERCIAL",
   },
   {
-    id: 9,
+    id: "9",
     title: "Comercial 02",
     summary: "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis.",
     description:
@@ -98,7 +98,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     tag: "COMERCIAL",
   },
   {
-    id: 10,
+    id: "10",
     title: "Comercial 03",
     summary: "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis.",
     description:
@@ -107,7 +107,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     tag: "COMERCIAL",
   },
   {
-    id: 11,
+    id: "11",
     title: "Comercial 04",
     summary: "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis.",
     description:
@@ -116,7 +116,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     tag: "COMERCIAL",
   },
   {
-    id: 12,
+    id: "12",
     title: "Comercial 05",
     summary: "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis.",
     description:
@@ -128,7 +128,7 @@ export const ProjectsData: ProjectsDataProps[] = [
 
 export const SlidePhotos: SlideDataProps[] = [
   {
-    id: 1,
+    id: "1",
     title: "Residencial",
     summary:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. ",
@@ -136,7 +136,7 @@ export const SlidePhotos: SlideDataProps[] = [
     mobileImage: "bg_02_mobile.png",
   },
   {
-    id: 2,
+    id: "2",
     title: "Residencial 2",
     summary:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. ",
@@ -144,7 +144,7 @@ export const SlidePhotos: SlideDataProps[] = [
     mobileImage: "bg_03_mobile.png",
   },
   {
-    id: 3,
+    id: "3",
     title: "Residencial 3",
     summary:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. ",
@@ -152,7 +152,7 @@ export const SlidePhotos: SlideDataProps[] = [
     mobileImage: "bg_04_mobile.png",
   },
   {
-    id: 4,
+    id: "4",
     title: "Residencial 4",
     summary:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. ",

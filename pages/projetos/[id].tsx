@@ -10,7 +10,7 @@ export default function ProjectDetails() {
   const { id } = query
 
   function getProjectFromQuery() {
-    const projectFromQuery = ProjectsData.find((project) => Number(id) === project.id)
+    const projectFromQuery = ProjectsData.find((project) => id === project.id)
     console.log({ projectFromQuery })
     if (projectFromQuery) {
       setProject(projectFromQuery)
