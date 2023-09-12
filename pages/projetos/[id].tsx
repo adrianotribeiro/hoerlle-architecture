@@ -25,11 +25,11 @@ export default function ProjectDetails() {
 
   if (!project || !id) return null
   return (
-    <div className="container flex h-full w-full flex-col items-center">
+    <div className="container flex h-full w-full flex-col items-center px-3 xl:px-12">
       <div className="mb-16 mt-8 flex flex-row items-center justify-center gap-4 border-b border-[#676060] p-4 md:w-[40%]">
         <p className={`font-montserrat text-3xl font-light tracking-wider `}>{project.title}</p>
       </div>
-      <div className="flex max-h-[500px] w-full grow-0 flex-row overflow-hidden">
+      <div className="flex max-h-[500px] w-full grow-0 flex-row overflow-hidden px-4">
         <Image
           width={1000}
           height={1000}
@@ -38,7 +38,7 @@ export default function ProjectDetails() {
           className="h-[200px] w-full object-cover md:h-[500px]"
         />
       </div>
-      <div className="my-8 items-center justify-center p-4 md:my-16 md:p-0">
+      <div className="my-8 items-center justify-center p-4 md:my-16 md:px-4 md:py-0">
         <p className="text-justify font-montserrat text-base font-light tracking-wider md:text-xl">
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim.
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim
@@ -49,7 +49,7 @@ export default function ProjectDetails() {
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim
         </p>
       </div>
-      <div className="grid max-h-[550px] w-full grid-cols-2 gap-0 overflow-hidden md:gap-4">
+      <div className="grid max-h-[550px] w-full grid-cols-2 gap-1 overflow-hidden px-4 md:gap-4">
         <Image
           width={1000}
           height={1000}
@@ -66,17 +66,17 @@ export default function ProjectDetails() {
         />
       </div>
       <div className="my-8 items-center justify-center p-4 md:my-16 md:p-0">
-        <p className="text-justify font-montserrat text-base font-light tracking-wider md:text-xl">
+        <p className="text-justify font-montserrat text-base font-light tracking-wider md:px-4 md:py-0 md:text-xl">
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim.
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim
         </p>
         <br />
-        <p className="text-justify font-montserrat text-base font-light tracking-wider md:text-xl">
+        <p className="text-justify font-montserrat text-base font-light tracking-wider md:px-4 md:py-0 md:text-xl">
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim.
           Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim
         </p>
       </div>
-      <div className="mb-4 flex max-h-[600px] w-full grow-0 flex-row overflow-hidden">
+      <div className="mb-4 flex max-h-[600px] w-full grow-0 flex-row overflow-hidden px-4">
         <Image
           width={1000}
           height={1000}

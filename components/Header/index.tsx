@@ -22,10 +22,10 @@ export default function Header(): React.ReactElement {
     },
   })
 
-  const hamburgerButtonLine = "h-1 w-8 my-1 rounded-full bg-[#121010] transition ease transform duration-300 z-10"
+  const hamburgerButtonLine = "h-1 w-8 my-1 rounded-full bg-[#121010] transition ease transform duration-300 z-50"
 
   return (
-    <animated.section style={headerAnim} className="">
+    <animated.section style={headerAnim} className="z-40">
       <div className="hidden md:flex md:justify-around md:py-3 6xl:justify-between">
         <div>
           <p className="font-montserrat md:text-[35px] md:text-[#676060] xl:text-[40px]">Eduardo Hoerlle</p>
@@ -55,7 +55,7 @@ export default function Header(): React.ReactElement {
         </div>
       </div>
       <animated.div
-        className="absolute left-0 top-0 z-30 h-[40vh] w-full bg-white/5 backdrop-blur-sm lg:hidden"
+        className="absolute left-0 top-0 z-30 h-screen w-full bg-black/50 backdrop-blur-sm md:hidden"
         style={{ transform }}
       >
         <ResponsiveHeader />
