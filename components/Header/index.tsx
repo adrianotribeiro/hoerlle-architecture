@@ -24,6 +24,13 @@ export default function Header(): React.ReactElement {
 
   const hamburgerButtonLine = "h-1 w-8 my-1 rounded-full bg-[#121010] transition ease transform duration-300 z-50"
 
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth",
+    })
+  }
+
   return (
     <animated.section style={headerAnim} className="z-40">
       <div className="hidden md:flex md:justify-around md:py-3 6xl:justify-between">
@@ -49,7 +56,10 @@ export default function Header(): React.ReactElement {
           >
             SOBRE
           </Link>
-          <button className="h-[30px] font-montserrat md:flex md:w-[108px] md:items-center md:justify-center md:rounded md:bg-[#B1AAAA] md:text-base md:text-[#ffff]">
+          <button
+            onClick={scrollToBottom}
+            className="h-[30px] font-montserrat md:flex md:w-[108px] md:items-center md:justify-center md:rounded md:bg-[#B1AAAA] md:text-base md:text-[#ffff]"
+          >
             CONTATOS
           </button>
         </div>

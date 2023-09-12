@@ -1,5 +1,5 @@
 /* eslint-disable tailwindcss/no-custom-classname */
-import React, { ReactNode } from "react"
+import React from "react"
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai"
 import { useSpringCarousel } from "react-spring-carousel"
 import { SlidePhotos } from "data/mockData"

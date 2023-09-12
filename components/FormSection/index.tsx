@@ -3,13 +3,13 @@ import React from "react"
 
 export default function FormSection(): React.ReactElement {
   return (
-    <section className="mb-16 flex flex-col xl:flex-row xl:justify-around">
+    <section className="mb-16 flex flex-col xl:h-[83vh] xl:flex-row xl:justify-around xl:py-2 4xl:h-[85vh] 5xl:h-[88vh] 5xl:items-center 6xl:h-[88vh] 6xl:items-center">
       <div className="m-auto w-[85%] xl:m-0 xl:w-[50%]">
         <form action="" className="flex flex-col gap-3">
-          <label htmlFor="title" className="py-4 text-4xl font-light text-[#454242]">
+          <label htmlFor="title" className="py-4 font-montserrat text-4xl font-light text-[#454242]">
             Contato
           </label>
-          <div className="flex flex-col">
+          <div className="flex flex-col font-montserrat">
             <label className="text-[25px] font-light text-[#454242]" htmlFor="name">
               Name
             </label>
@@ -52,7 +52,7 @@ export default function FormSection(): React.ReactElement {
           </button>
         </form>
       </div>
-      <div className="md:flex md:justify-center">
+      <div className="md:flex md:justify-center xl:h-fit xl:items-center  xl:py-4">
         <Image
           src="/images/dudu_profile.png"
           width={400}

@@ -36,7 +36,7 @@ export default function Sobre(): React.ReactElement {
   const textAnimP = useSpring({ ...textConfig(600) })
 
   return (
-    <div className="flex h-full w-full flex-col items-center overflow-hidden 6xl:h-[88vh]">
+    <div className="flex h-full w-full flex-col items-center overflow-hidden font-montserrat 6xl:h-[88vh]">
       <div className="flex h-full w-full flex-col items-center bg-[url('/images/bg_00.png')] ">
         <div className="flex h-full w-full flex-col items-center justify-center bg-[#D9D9D9]/80 ">
           <div className="grid h-full w-full grid-cols-2 md:grid-cols-5">
