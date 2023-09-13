@@ -23,6 +23,7 @@
     "coupling-graph": "npx madge --extensions js,jsx,ts,tsx,css,md,mdx ./ --exclude '.next|tailwind.config.js|reset.d.ts|prettier.config.js|postcss.config.js|playwright.config.ts|next.config.js|next-env.d.ts|instrumentation.ts|e2e/|README.md|.storybook/|.eslintrc.js' --image graph.svg"
   },
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "@next/bundle-analyzer": "^13.3.0",
     "@radix-ui/react-accordion": "^1.1.1",
     "@radix-ui/react-checkbox": "^1.0.3",
@@ -48,6 +49,7 @@
     "@semantic-release/release-notes-generator": "^11.0.1",
     "@t3-oss/env-nextjs": "^0.6.0",
     "@vercel/otel": "^0.3.0",
+    "axios": "^1.5.0",
     "class-variance-authority": "^0.7.0",
     "lodash": "^4.17.21",
     "next": "^13.3.0",
