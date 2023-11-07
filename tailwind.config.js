@@ -15,6 +15,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       colors: {
         primary: {
@@ -31,6 +34,7 @@ module.exports = {
         },
       },
       fontFamily: {
+        montserrat: "var(--font-montserrat)",
         body: [
           "Inter",
           "ui-sans-serif",
@@ -49,7 +53,6 @@ module.exports = {
           "Noto Color Emoji",
         ],
         sans: [
-          "Inter",
           "ui-sans-serif",
           "system-ui",
           "-apple-system",
@@ -65,7 +68,6 @@ module.exports = {
           "Segoe UI Symbol",
           "Noto Color Emoji",
         ],
-        montserrat: ["Montserrat", "Inter", "sans-serif"],
       },
       borderWidth: {
         DEFAULT: "1px",
@@ -83,10 +85,20 @@ module.exports = {
         ...defaultTheme.width,
       },
       screens: {
+        xs: { raw: "(max-width: 640px)" },
+        "2sm": { raw: "(width: 800px)" },
+        "3sm": { raw: "(width: 1024px)" },
         "3xl": { raw: "(width: 1366px)" },
         "4xl": { raw: "(min-width:1440px)" },
-        "4_xl": { raw: "(width:1536px)" },
+        "4_xl": { raw: "(min-width:1536px)" },
         "5xl": { raw: "(min-width: 1920px)" },
+        "6xl": { raw: "(min-width: 2560px)" },
+      },
+      backgroundSize: {
+        "25%": "25%",
+        "50%": "50%",
+        "75%": "75%",
+        "100%": "100%",
       },
     },
   },
