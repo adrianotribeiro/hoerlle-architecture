@@ -1,5 +1,5 @@
-import { animated, useSpring } from "@react-spring/web"
 import Image from "next/image"
+import { animated, useSpring } from "@react-spring/web"
 
 export default function Sobre(): React.ReactElement {
   const imageAnim = useSpring({

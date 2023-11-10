@@ -18,7 +18,7 @@ export default function Summary(): React.ReactElement {
           </p>
         </div>
       </div>
-      <div className="flex h-[50vh] flex-col justify-center bg-[url('/images/comercial_summary.png')] bg-100% bg-no-repeat md:bg-[url('/images/bg_00.png')] xl:h-[60vh] xl:bg-[url('/images/comercial_summary.png')] xl:bg-25% xl:bg-repeat-x 2sm:h-[38vh] 6xl:h-[40vh]">
+      <div className="flex h-[50vh] flex-col justify-center bg-[url('/images/card_06.png')] bg-100% bg-no-repeat  xl:h-[60vh] xl:bg-25% xl:bg-repeat-x 2sm:h-[38vh] 6xl:h-[40vh]">
         <div className="flex flex-col gap-3 4xl:gap-6">
           <div className="flex flex-col items-center gap-1">
             <p className="font-montserrat text-3xl font-light text-[#ffffff] md:text-[40px]  xl:text-6xl">Comercial</p>

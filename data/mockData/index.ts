@@ -132,31 +132,31 @@ export const SlidePhotos: SlideDataProps[] = [
     title: "Residencial",
     summary:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. ",
-    image: "bg_02.png",
-    mobileImage: "bg_02_mobile.png",
+    image: "card_00.png",
+    mobileImage: "card_00.png",
   },
   {
     id: "2",
     title: "Residencial 2",
     summary:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. ",
-    image: "bg_03.png",
-    mobileImage: "bg_03_mobile.png",
+    image: "card_00.png",
+    mobileImage: "card_00.png",
   },
   {
     id: "3",
     title: "Residencial 3",
     summary:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. ",
-    image: "bg_04.png",
-    mobileImage: "bg_04_mobile.png",
+    image: "card_00.png",
+    mobileImage: "card_00.png",
   },
   {
     id: "4",
     title: "Residencial 4",
     summary:
       "Mauris vitae risus urna. Phasellus placerat sit amet nulla non lobortis. Pellentesque sed interdum enim. ",
-    image: "bg_05.png",
-    mobileImage: "bg_05_mobile.png",
+    image: "card_00.png",
+    mobileImage: "card_00.png",
   },
 ]
